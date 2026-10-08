@@ -1,0 +1,80 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:player": 3,
+      "minecraft:spider": 1
+    },
+    "minecraft:used": {
+      "minecraft:grass_block": 24,
+      "minecraft:lava_bucket": 7,
+      "minecraft:lever": 1,
+      "minecraft:bucket": 7,
+      "minecraft:shield": 32,
+      "minecraft:netherite_sword": 87,
+      "minecraft:cobweb": 7,
+      "minecraft:dispenser": 1,
+      "minecraft:netherite_spear": 3,
+      "minecraft:mace": 2,
+      "minecraft:cobblestone": 4
+    },
+    "minecraft:picked_up": {
+      "minecraft:black_banner": 1,
+      "minecraft:string": 2,
+      "minecraft:cobweb": 57,
+      "minecraft:netherite_leggings": 4,
+      "minecraft:shield": 4,
+      "minecraft:lava_bucket": 1,
+      "minecraft:netherite_chestplate": 4,
+      "minecraft:netherite_helmet": 3,
+      "minecraft:gunpowder": 1,
+      "minecraft:netherite_boots": 3,
+      "minecraft:netherite_sword": 4
+    },
+    "minecraft:dropped": {
+      "minecraft:cobweb": 64,
+      "minecraft:lava_bucket": 1,
+      "minecraft:netherite_sword": 2,
+      "minecraft:netherite_boots": 1,
+      "minecraft:netherite_helmet": 1,
+      "minecraft:deepslate_bricks": 2,
+      "minecraft:netherite_leggings": 1,
+      "minecraft:shield": 2,
+      "minecraft:netherite_chestplate": 1,
+      "minecraft:netherite_axe": 1
+    },
+    "minecraft:killed": {
+      "minecraft:creeper": 1
+    },
+    "minecraft:custom": {
+      "minecraft:damage_blocked_by_shield": 1934,
+      "minecraft:time_since_rest": 30078,
+      "minecraft:walk_one_cm": 66408,
+      "minecraft:leave_game": 7,
+      "minecraft:walk_under_water_one_cm": 2427,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 1142,
+      "minecraft:play_time": 133512,
+      "minecraft:damage_dealt": 2166,
+      "minecraft:jump": 1064,
+      "minecraft:time_since_death": 30058,
+      "minecraft:drop": 13,
+      "minecraft:sprint_one_cm": 50868,
+      "minecraft:inspect_dispenser": 4,
+      "minecraft:fall_one_cm": 33028,
+      "minecraft:total_world_time": 133512,
+      "minecraft:swim_one_cm": 3924,
+      "minecraft:fly_one_cm": 444968,
+      "minecraft:walk_on_water_one_cm": 952,
+      "minecraft:crouch_one_cm": 995,
+      "minecraft:sneak_time": 1279,
+      "minecraft:deaths": 7,
+      "minecraft:player_kills": 5
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 6,
+      "minecraft:tall_grass": 7,
+      "minecraft:cobweb": 1
+    }
+  },
+  "DataVersion": 4903
+}

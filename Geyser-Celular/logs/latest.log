@@ -1,0 +1,1433 @@
+[17:47:33.380 main/INFO] Loading extensions...
+[17:47:33.396 main/INFO] Loaded 0 extension(s)
+[17:47:33.543 main/DEBUG] Registered command geyser help
+[17:47:33.552 main/DEBUG] Registered command geyser list
+[17:47:33.554 main/DEBUG] Registered command geyser reload
+[17:47:33.561 main/DEBUG] Registered command geyser offhand
+[17:47:33.576 main/DEBUG] Registered command geyser dump
+[17:47:34.215 main/DEBUG] Java version: 25
+[17:47:34.215 main/DEBUG] -Dio.netty.noUnsafe: false
+[17:47:34.216 main/DEBUG] sun.misc.Unsafe: unavailable (io.netty.noUnsafe=true by default on Java 25+)
+[17:47:34.217 main/DEBUG] java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[17:47:34.218 main/DEBUG] maxDirectMemory: 2082471936 bytes (maybe)
+[17:47:34.218 main/DEBUG] -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[17:47:34.219 main/DEBUG] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[17:47:34.220 main/DEBUG] -Dio.netty.maxDirectMemory: -1 bytes
+[17:47:34.221 main/DEBUG] java.nio.ByteBuffer.cleaner(): unavailable
+java.lang.UnsupportedOperationException: sun.misc.Unsafe unavailable
+	at io.netty.util.internal.CleanerJava9.<clinit>(CleanerJava9.java:70) [Geyser.jar:?]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:198) [Geyser.jar:?]
+	at io.netty.util.internal.ReferenceCountUpdater.getUnsafeOffset(ReferenceCountUpdater.java:193) [Geyser.jar:?]
+	at io.netty.util.internal.ReferenceCountUpdater.updaterTypeOf(ReferenceCountUpdater.java:181) [Geyser.jar:?]
+	at io.netty.util.AbstractReferenceCounted.<clinit>(AbstractReferenceCounted.java:42) [Geyser.jar:?]
+	at org.cloudburstmc.protocol.bedrock.codec.BedrockCodec$Builder.registerPacket(BedrockCodec.java:134) [Geyser.jar:?]
+	at org.cloudburstmc.protocol.bedrock.codec.v291.Bedrock_v291.<clinit>(Bedrock_v291.java:694) [Geyser.jar:?]
+	at org.geysermc.geyser.network.bedrock.GameProtocol.<clinit>(GameProtocol.java:86) [Geyser.jar:?]
+	at org.geysermc.geyser.command.defaults.VersionCommand.<clinit>(VersionCommand.java:50) [Geyser.jar:?]
+	at org.geysermc.geyser.command.CommandRegistry.<init>(CommandRegistry.java:166) [Geyser.jar:?]
+	at org.geysermc.geyser.command.CommandRegistry.<init>(CommandRegistry.java:135) [Geyser.jar:?]
+	at org.geysermc.geyser.platform.standalone.GeyserStandaloneBootstrap.onGeyserEnable(GeyserStandaloneBootstrap.java:171) [Geyser.jar:?]
+	at org.geysermc.geyser.platform.standalone.GeyserStandaloneBootstrap.onGeyserInitialize(GeyserStandaloneBootstrap.java:146) [Geyser.jar:?]
+	at org.geysermc.geyser.platform.standalone.GeyserStandaloneBootstrap.main(GeyserStandaloneBootstrap.java:133) [Geyser.jar:?]
+[17:47:34.328 main/DEBUG] java.nio.ByteBuffer.cleaner(): available
+[17:47:34.328 main/DEBUG] -Dio.netty.noPreferDirect: false
+[17:47:34.338 main/DEBUG] -Dio.netty.jfr.enabled: true
+[17:47:34.340 main/DEBUG] java.lang.invoke.VarHandle: available
+[17:47:34.340 main/DEBUG] -Dio.netty.varHandle.enabled: true
+[17:47:35.022 main/DEBUG] Registered command geyser version
+[17:47:35.025 main/DEBUG] Registered command geyser settings
+[17:47:35.027 main/DEBUG] Registered command geyser statistics
+[17:47:35.029 main/DEBUG] Registered command geyser advancements
+[17:47:35.035 main/DEBUG] Registered command geyser tooltips
+[17:47:35.048 main/DEBUG] Registered command geyser connectiontest
+[17:47:35.050 main/DEBUG] Registered command geyser ping
+[17:47:35.052 main/DEBUG] Registered command geyser options
+[17:47:35.054 main/DEBUG] Registered command geyser quickactions
+[17:47:35.060 main/DEBUG] Registered command geyser gamerules
+[17:47:35.070 main/DEBUG] Registered command geyser nethernet
+[17:47:35.074 main/DEBUG] Registered command geyser stop
+[17:47:35.083 main/INFO] ******************************************
+[17:47:35.084 main/INFO] 
+[17:47:35.085 main/INFO] Loading Geyser version 2.11.3-b1248 (git-master-751d2aa)
+[17:47:35.085 main/INFO] 
+[17:47:35.086 main/INFO] ******************************************
+[17:47:35.319 main/DEBUG] -Dio.netty.buffer.checkAccessible: true
+[17:47:35.321 main/DEBUG] -Dio.netty.buffer.checkBounds: true
+[17:47:35.323 main/DEBUG] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3434a4f0
+[17:47:35.481 main/DEBUG] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[17:47:35.481 main/DEBUG] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[17:47:35.482 main/DEBUG] -Dio.netty.allocator.useCachedMagazinesForNonEventLoopThreads: false
+[17:47:35.504 main/DEBUG] -Dio.netty.recycler.maxCapacityPerThread: 4096
+[17:47:35.505 main/DEBUG] -Dio.netty.recycler.ratio: 8
+[17:47:35.505 main/DEBUG] -Dio.netty.recycler.chunkSize: 32
+[17:47:35.506 main/DEBUG] -Dio.netty.recycler.blocking: false
+[17:47:35.506 main/DEBUG] -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[17:47:35.533 main/DEBUG] -Dio.netty.allocator.type: adaptive
+[17:47:35.533 main/DEBUG] -Dio.netty.threadLocalDirectBufferSize: 0
+[17:47:35.533 main/DEBUG] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[17:47:36.044 main/DEBUG] Skipping particle mapping BLOCK_MARKER because no Bedrock equivalent exists.
+[17:47:36.044 main/DEBUG] Skipping particle mapping GEYSER because no Bedrock equivalent exists.
+[17:47:36.045 main/DEBUG] Skipping particle mapping NOXIOUS_GAS_CLOUD because no Bedrock equivalent exists.
+[17:47:36.045 main/DEBUG] Skipping particle mapping TRAIL because no Bedrock equivalent exists.
+[17:47:36.979 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.SolidCollision
+[17:47:36.984 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.fixes.ConduitCollision
+[17:47:36.985 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.fixes.LanternCollision
+[17:47:36.986 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.fixes.EndPortalCollision
+[17:47:36.987 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.fixes.DoorCollision
+[17:47:36.987 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.fixes.GlassPaneAndIronBarsCollision
+[17:47:36.987 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.fixes.ScaffoldingCollision
+[17:47:36.990 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.fixes.SeaPickleCollision
+[17:47:36.990 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.fixes.BellCollision
+[17:47:36.990 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.fixes.ChestCollision
+[17:47:36.990 main/DEBUG] Found annotated collision translator: org.geysermc.geyser.translator.collision.fixes.TrapdoorCollision
+[17:47:40.545 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockMobEquipmentTranslator : MobEquipmentPacket
+[17:47:40.547 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaStartConfigurationTranslator : ClientboundStartConfigurationPacket
+[17:47:40.547 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetPlayerGameTypeTranslator : SetPlayerGameTypePacket
+[17:47:40.548 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockNetworkStackLatencyTranslator : NetworkStackLatencyPacket
+[17:47:40.549 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRecipeBookAddTranslator : ClientboundRecipeBookAddPacket
+[17:47:40.550 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetActionBarTextTranslator : ClientboundSetActionBarTextPacket
+[17:47:40.551 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockSetLocalPlayerAsInitializedTranslator : SetLocalPlayerAsInitializedPacket
+[17:47:40.552 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityDataTranslator : ClientboundSetEntityDataPacket
+[17:47:40.553 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRemoveMobEffectTranslator : ClientboundRemoveMobEffectPacket
+[17:47:40.554 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerCombatKillTranslator : ClientboundPlayerCombatKillPacket
+[17:47:40.554 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetPlayerTeamTranslator : ClientboundSetPlayerTeamPacket
+[17:47:40.555 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityMotionTranslator : ClientboundSetEntityMotionPacket
+[17:47:40.557 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetChunkCacheRadiusTranslator : ClientboundSetChunkCacheRadiusPacket
+[17:47:40.557 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLoginTranslator : ClientboundLoginPacket
+[17:47:40.558 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSoundTranslator : ClientboundSoundPacket
+[17:47:40.559 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockFilterTextTranslator : FilterTextPacket
+[17:47:40.560 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockToggleCrafterSlotRequestTranslator : ToggleCrafterSlotRequestPacket
+[17:47:40.560 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSystemChatTranslator : ClientboundSystemChatPacket
+[17:47:40.561 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaUpdateAttributesTranslator : ClientboundUpdateAttributesPacket
+[17:47:40.562 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockEntityDataTranslator : ClientboundBlockEntityDataPacket
+[17:47:40.562 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPacketViolationWarningTranslator : PacketViolationWarningPacket
+[17:47:40.563 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaEntityPositionSyncTranslator : ClientboundEntityPositionSyncPacket
+[17:47:40.563 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetDataTranslator : ClientboundContainerSetDataPacket
+[17:47:40.564 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaEntityEventTranslator : ClientboundEntityEventPacket
+[17:47:40.564 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelEventTranslator : ClientboundLevelEventPacket
+[17:47:40.565 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaAddEntityTranslator : ClientboundAddEntityPacket
+[17:47:40.566 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaOpenBookTranslator : ClientboundOpenBookPacket
+[17:47:40.566 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveVehicleTranslator : ClientboundMoveVehiclePacket
+[17:47:40.567 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaClientboundResourcePackPushPacket : ClientboundResourcePackPushPacket
+[17:47:40.567 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateEnabledFeaturesPacket : ClientboundUpdateEnabledFeaturesPacket
+[17:47:40.570 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSectionBlocksUpdateTranslator : ClientboundSectionBlocksUpdatePacket
+[17:47:40.570 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityRotTranslator : ClientboundMoveEntityRotPacket
+[17:47:40.570 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaOpenScreenTranslator : ClientboundOpenScreenPacket
+[17:47:40.571 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderWarningDistanceTranslator : ClientboundSetBorderWarningDistancePacket
+[17:47:40.571 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBlockPickRequestTranslator : BlockPickRequestPacket
+[17:47:40.572 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLowDiskSpaceWarningTranslator : ClientboundLowDiskSpaceWarningPacket
+[17:47:40.573 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderCenterTranslator : ClientboundSetBorderCenterPacket
+[17:47:40.573 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.dialogues.JavaClearDialogTranslator : ClientboundClearDialogPacket
+[17:47:40.574 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaBlockChangedAckTranslator : ClientboundBlockChangedAckPacket
+[17:47:40.575 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetHeldSlotTranslator : ClientboundSetHeldSlotPacket
+[17:47:40.576 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetScoreTranslator : ClientboundSetScorePacket
+[17:47:40.578 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaDisguisedChatTranslator : ClientboundDisguisedChatPacket
+[17:47:40.579 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaCooldownTranslator : ClientboundCooldownPacket
+[17:47:40.580 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockUpdateTranslator : ClientboundBlockUpdatePacket
+[17:47:40.581 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockEmoteTranslator : EmotePacket
+[17:47:40.581 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaOpenSignEditorTranslator : ClientboundOpenSignEditorPacket
+[17:47:40.581 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEquipmentTranslator : ClientboundSetEquipmentPacket
+[17:47:40.582 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.dialogues.JavaShowDialogueConfigurationTranslator : ClientboundShowDialogConfigurationPacket
+[17:47:40.584 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaGameRuleValuesTranslator : ClientboundGameRuleValuesPacket
+[17:47:40.584 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCodeOfConductTranslator : ClientboundCodeOfConductPacket
+[17:47:40.584 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerPositionTranslator : ClientboundPlayerPositionPacket
+[17:47:40.585 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSelectAdvancementsTabTranslator : ClientboundSelectAdvancementsTabPacket
+[17:47:40.586 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.input.BedrockPlayerAuthInputTranslator : PlayerAuthInputPacket
+[17:47:40.587 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockCommandRequestTranslator : CommandRequestPacket
+[17:47:40.587 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerRotationTranslator : ClientboundPlayerRotationPacket
+[17:47:40.589 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCommandsTranslator : ClientboundCommandsPacket
+[17:47:40.589 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaAnimateTranslator : ClientboundAnimatePacket
+[17:47:40.589 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSoundEntityTranslator : ClientboundSoundEntityPacket
+[17:47:40.591 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetDisplayObjectiveTranslator : ClientboundSetDisplayObjectivePacket
+[17:47:40.591 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaGameEventTranslator : ClientboundGameEventPacket
+[17:47:40.592 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelParticlesTranslator : ClientboundLevelParticlesPacket
+[17:47:40.594 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockStructureBlockUpdateTranslator : StructureBlockUpdatePacket
+[17:47:40.594 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockServerSettingsRequestTranslator : ServerSettingsRequestPacket
+[17:47:40.602 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetExperienceTranslator : ClientboundSetExperiencePacket
+[17:47:40.603 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityPosTranslator : ClientboundMoveEntityPosPacket
+[17:47:40.608 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaClearTitlesTranslator : ClientboundClearTitlesPacket
+[17:47:40.608 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockLecternUpdateTranslator : LecternUpdatePacket
+[17:47:40.608 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockEntityPickRequestTranslator : EntityPickRequestPacket
+[17:47:40.608 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaTickingStepTranslator : ClientboundTickingStepPacket
+[17:47:40.612 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaDamageEventTranslator : ClientboundDamageEventPacket
+[17:47:40.612 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetTitleTextTranslator : ClientboundSetTitleTextPacket
+[17:47:40.612 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaMerchantOffersTranslator : ClientboundMerchantOffersPacket
+[17:47:40.612 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerLookAtTranslator : ClientboundPlayerLookAtPacket
+[17:47:40.615 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaTakeItemEntityTranslator : ClientboundTakeItemEntityPacket
+[17:47:40.615 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockInventoryTransactionTranslator : InventoryTransactionPacket
+[17:47:40.617 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockEventTranslator : ClientboundBlockEventPacket
+[17:47:40.618 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaPingTranslator : ClientboundPingPacket
+[17:47:40.619 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaPlayerChatTranslator : ClientboundPlayerChatPacket
+[17:47:40.620 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetCameraTranslator : ClientboundSetCameraPacket
+[17:47:40.620 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetDefaultSpawnPositionTranslator : ClientboundSetDefaultSpawnPositionPacket
+[17:47:40.620 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.BedrockEntityEventTranslator : EntityEventPacket
+[17:47:40.621 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockDestructionTranslator : ClientboundBlockDestructionPacket
+[17:47:40.621 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.world.BedrockLevelSoundEventTranslator : LevelSoundEventPacket
+[17:47:40.621 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateAdvancementsTranslator : ClientboundUpdateAdvancementsPacket
+[17:47:40.621 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaCookieRequestTranslator : ClientboundCookieRequestPacket
+[17:47:40.626 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRemoveEntitiesTranslator : ClientboundRemoveEntitiesPacket
+[17:47:40.627 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveMinecartTranslator : ClientboundMoveMinecartPacket
+[17:47:40.627 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetPlayerInventoryOptionsTranslator : SetPlayerInventoryOptionsPacket
+[17:47:40.628 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaStoreCookieTranslator : ClientboundStoreCookiePacket
+[17:47:40.629 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaChunkBatchFinishedTranslator : ClientboundChunkBatchFinishedPacket
+[17:47:40.629 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelChunkWithLightTranslator : ClientboundLevelChunkWithLightPacket
+[17:47:40.629 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetSlotTranslator : ClientboundContainerSetSlotPacket
+[17:47:40.629 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetChunkCacheCenterTranslator : ClientboundSetChunkCacheCenterPacket
+[17:47:40.629 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaUpdateMobEffectTranslator : ClientboundUpdateMobEffectPacket
+[17:47:40.631 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaInitializeBorderTranslator : ClientboundInitializeBorderPacket
+[17:47:40.632 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetTimeTranslator : ClientboundSetTimePacket
+[17:47:40.632 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetContentTranslator : ClientboundContainerSetContentPacket
+[17:47:40.633 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockPlayerActionTranslator : PlayerActionPacket
+[17:47:40.634 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockContainerCloseTranslator : ContainerClosePacket
+[17:47:40.635 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityPosRotTranslator : ClientboundMoveEntityPosRotPacket
+[17:47:40.635 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCustomPayloadTranslator : ClientboundCustomPayloadPacket
+[17:47:40.636 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetHealthTranslator : ClientboundSetHealthPacket
+[17:47:40.636 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaExplodeTranslator : ClientboundExplodePacket
+[17:47:40.639 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetDefaultGameTypeTranslator : SetDefaultGameTypePacket
+[17:47:40.639 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBookEditTranslator : BookEditPacket
+[17:47:40.639 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetTitlesAnimationTranslator : ClientboundSetTitlesAnimationPacket
+[17:47:40.639 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.dialogues.JavaShowDialogGameTranslator : ClientboundShowDialogGamePacket
+[17:47:40.641 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaAwardStatsTranslator : ClientboundAwardStatsPacket
+[17:47:40.641 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockInteractTranslator : InteractPacket
+[17:47:40.641 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaChangeDifficultyTranslator : ClientboundChangeDifficultyPacket
+[17:47:40.643 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaSetCursorItemTranslator : ClientboundSetCursorItemPacket
+[17:47:40.643 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaBossEventTranslator : ClientboundBossEventPacket
+[17:47:40.644 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBlockEntityDataTranslator : BlockEntityDataPacket
+[17:47:40.644 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaServerLinksTranslator : ClientboundServerLinksPacket
+[17:47:40.645 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerInfoRemoveTranslator : ClientboundPlayerInfoRemovePacket
+[17:47:40.646 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockStructureTemplateDataRequestTranslator : StructureTemplateDataRequestPacket
+[17:47:40.646 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderSizeTranslator : ClientboundSetBorderSizePacket
+[17:47:40.646 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockShowCreditsTranslator : ShowCreditsPacket
+[17:47:40.647 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderLerpSizeTranslator : ClientboundSetBorderLerpSizePacket
+[17:47:40.648 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaFinishConfigurationTranslator : ClientboundFinishConfigurationPacket
+[17:47:40.650 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaMountScreenOpenTranslator : ClientboundMountScreenOpenPacket
+[17:47:40.650 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRespawnTranslator : RespawnPacket
+[17:47:40.650 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRecipeBookRemoveTranslator : ClientboundRecipeBookRemovePacket
+[17:47:40.650 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaTeleportEntityTranslator : ClientboundTeleportEntityPacket
+[17:47:40.651 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPositionTrackingDBClientRequestTranslator : PositionTrackingDBClientRequestPacket
+[17:47:40.652 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaTransferPacketTranslator : ClientboundTransferPacket
+[17:47:40.656 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLoginFinishedTranslator : ClientboundLoginFinishedPacket
+[17:47:40.658 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockRequestPermissionsPacket : RequestPermissionsPacket
+[17:47:40.658 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderWarningDelayTranslator : ClientboundSetBorderWarningDelayPacket
+[17:47:40.659 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetSubtitleTextTranslator : ClientboundSetSubtitleTextPacket
+[17:47:40.661 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRotateHeadTranslator : ClientboundRotateHeadPacket
+[17:47:40.662 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateTagsTranslator : ClientboundUpdateTagsPacket
+[17:47:40.662 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityLinkTranslator : ClientboundSetEntityLinkPacket
+[17:47:40.664 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetPassengersTranslator : ClientboundSetPassengersPacket
+[17:47:40.665 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaTickingStateTranslator : ClientboundTickingStatePacket
+[17:47:40.666 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaResetScorePacket : ClientboundResetScorePacket
+[17:47:40.667 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockAnimateTranslator : AnimatePacket
+[17:47:40.669 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaMapItemDataTranslator : ClientboundMapItemDataPacket
+[17:47:40.670 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockItemStackRequestTranslator : ItemStackRequestPacket
+[17:47:40.670 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockTextTranslator : TextPacket
+[17:47:40.670 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetObjectiveTranslator : ClientboundSetObjectivePacket
+[17:47:40.672 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRespawnTranslator : ClientboundRespawnPacket
+[17:47:40.675 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCustomQueryTranslator : ClientboundCustomQueryPacket
+[17:47:40.676 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRegistryDataTranslator : ClientboundRegistryDataPacket
+[17:47:40.676 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetDifficultyTranslator : SetDifficultyPacket
+[17:47:40.677 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerInfoUpdateTranslator : ClientboundPlayerInfoUpdatePacket
+[17:47:40.677 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaStopSoundTranslator : ClientboundStopSoundPacket
+[17:47:40.677 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaForgetLevelChunkTranslator : ClientboundForgetLevelChunkPacket
+[17:47:40.678 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaSetPlayerInventoryTranslator : ClientboundSetPlayerInventoryPacket
+[17:47:40.680 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRequestChunkRadiusTranslator : RequestChunkRadiusPacket
+[17:47:40.682 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaKeepAliveTranslator : ClientboundKeepAlivePacket
+[17:47:40.682 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockCommandBlockUpdateTranslator : CommandBlockUpdatePacket
+[17:47:40.683 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateRecipesTranslator : ClientboundUpdateRecipesPacket
+[17:47:40.684 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSelectKnownPacksTranslator : ClientboundSelectKnownPacks
+[17:47:40.684 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerAbilitiesTranslator : ClientboundPlayerAbilitiesPacket
+[17:47:40.685 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerCloseTranslator : ClientboundContainerClosePacket
+[17:47:40.686 main/DEBUG] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaTrackedWaypointTranslator : ClientboundTrackedWaypointPacket
+[17:47:40.802 main/INFO] Registered 1 custom items
+[17:47:41.084 main/DEBUG] Adding minecraft:debug_stick as an item that needs to be translated.
+[17:47:41.195 main/DEBUG] Adding minecraft:knowledge_book as an item that needs to be translated.
+[17:47:41.213 main/DEBUG] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[17:47:41.214 main/DEBUG] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[17:47:41.365 main/DEBUG] Adding minecraft:debug_stick as an item that needs to be translated.
+[17:47:41.372 main/DEBUG] Adding minecraft:knowledge_book as an item that needs to be translated.
+[17:47:41.383 main/DEBUG] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[17:47:41.386 main/DEBUG] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[17:47:41.566 main/DEBUG] Adding minecraft:debug_stick as an item that needs to be translated.
+[17:47:41.573 main/DEBUG] Adding minecraft:knowledge_book as an item that needs to be translated.
+[17:47:41.584 main/DEBUG] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[17:47:41.585 main/DEBUG] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[17:47:42.020 main/DEBUG] codeofconducts.json not found, not loading
+[17:47:42.184 main/ERROR] XBOX AUTHENTICATION IS DISABLED ON THIS GEYSER INSTANCE!
+[17:47:42.187 main/ERROR] While this allows using Bedrock edition proxies, it also opens up the ability for hackers to connect with any username they choose.
+[17:47:42.188 main/ERROR] To change this, set "disable-xbox-auth" to "false" in Geyser's config file.
+[17:47:42.344 main/DEBUG] -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[17:47:42.347 main/DEBUG] -Dio.netty.native.deleteLibAfterLoading: true
+[17:47:42.347 main/DEBUG] -Dio.netty.native.tryPatchShadedId: true
+[17:47:42.347 main/DEBUG] -Dio.netty.native.detectNativeLibraryDuplicates: true
+[17:47:42.369 main/DEBUG] Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_6417371201099962892891.so
+[17:47:42.378 main/DEBUG] -Djava.net.preferIPv4Stack: false
+[17:47:42.378 main/DEBUG] -Djava.net.preferIPv6Addresses: false
+[17:47:42.380 main/DEBUG] Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[17:47:42.380 main/DEBUG] /proc/sys/net/core/somaxconn: 4096
+[17:47:42.428 main/DEBUG] Successfully loaded the library /tmp/libnetty_transport_native_io_uring42_x86_648318450798392058953.so
+[17:47:42.443 main/DEBUG] IoUring support is available using kernel 6.8.0-1064-azure (CQE_F_SOCK_NONEMPTY_SUPPORTED=true, SPLICE_SUPPORTED=true, ACCEPT_NO_WAIT_SUPPORTED=false, ACCEPT_MULTISHOT_SUPPORTED=true, POLL_ADD_MULTISHOT_SUPPORTED=true RECV_MULTISHOT_SUPPORTED=true, IORING_RECVSEND_BUNDLE_SUPPORTED=false, REGISTER_IOWQ_MAX_WORKERS_SUPPORTED=true, SETUP_SUBMIT_ALL_SUPPORTED=true, SETUP_SINGLE_ISSUER_SUPPORTED=true, SETUP_DEFER_TASKRUN_SUPPORTED=true, REGISTER_BUFFER_RING_SUPPORTED=false, REGISTER_BUFFER_RING_INC_SUPPORTED=false, SEND_ZC_SUPPORTED=true, SENDMSG_ZC_SUPPORTED=true)
+[17:47:42.584 main/DEBUG] -Dio.netty.eventLoopThreads: 4
+[17:47:42.592 main/DEBUG] Kernel version: 6.8.0-1064-azure
+[17:47:42.596 main/DEBUG] Listen thread count: 1
+[17:47:42.634 main/DEBUG] -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[17:47:42.683 main/DEBUG] org.jctools-core.MpscChunkedArrayQueue: unavailable
+[17:47:42.710 main/DEBUG] Transport type: EPOLL
+[17:47:42.716 main/DEBUG] Setting MTU to 1000
+[17:47:42.717 main/DEBUG] Setting RakNet packet limit to 120
+[17:47:42.717 main/DEBUG] Setting RakNet global packet limit to 100000
+[17:47:42.717 main/DEBUG] Setting RakNet send cookie to true
+[17:47:42.717 main/DEBUG] Setting max connections per address to 10
+[17:47:42.717 main/DEBUG] Disabling RakNet rate limiting false
+[17:47:42.817 main/DEBUG] -Dio.netty.processId: 37664 (auto-detected)
+[17:47:42.819 main/DEBUG] -Dio.netty.machineId: 7c:1e:52:ff:fe:8b:97:2a (auto-detected)
+[17:47:42.919 main/DEBUG] -Dio.netty.bootstrap.extensions: null
+[17:47:42.950 GeyserServer-2-1/INFO] Started Geyser on UDP port 19133
+[17:47:42.974 main/INFO] Done (7.891s)! Run /geyser help for help!
+[17:47:42.975 main/WARN] Geyser doesn't translate Bedrock movements perfectly! Using Geyser in servers that have an anticheat could get you banned.
+[17:47:42.977 main/DEBUG] Registering permission geyser.command.quickactions with permission default TRUE
+[17:47:42.977 main/DEBUG] Registering permission geyser.command.advancements with permission default TRUE
+[17:47:42.977 main/DEBUG] Registering permission geyser.command.offhand with permission default TRUE
+[17:47:42.977 main/DEBUG] Registering permission geyser.command.tooltips with permission default TRUE
+[17:47:42.978 main/DEBUG] Registering permission geyser.command.settings with permission default TRUE
+[17:47:42.978 main/DEBUG] Registering permission geyser.command.options with permission default TRUE
+[17:47:42.978 main/DEBUG] Registering permission geyser.command.ping with permission default TRUE
+[17:47:42.978 main/DEBUG] Registering permission geyser.command.statistics with permission default TRUE
+[17:47:42.978 main/DEBUG] Registering permission geyser.command with permission default TRUE
+[17:47:42.979 main/DEBUG] Registering permission geyser.command.help with permission default TRUE
+[17:47:42.980 main/DEBUG] Scheduling ping passthrough at an interval of 3 second(s).
+[17:47:43.071 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:47:43.804 ForkJoinPool.commonPool-worker-1/DEBUG] {client=VersionDownload{sha1='2dc72797acbc1b63fc16a11c4ac393605f453754', size=39193383, url='https://piston-data.mojang.com/v1/objects/2dc72797acbc1b63fc16a11c4ac393605f453754/client.jar'}, server=VersionDownload{sha1='823e2250d24b3ddac457a60c92a6a941943fcd6a', size=60894273, url='https://piston-data.mojang.com/v1/objects/823e2250d24b3ddac457a60c92a6a941943fcd6a/server.jar'}}
+[17:47:43.806 ForkJoinPool.commonPool-worker-1/DEBUG] VersionDownload{sha1='2dc72797acbc1b63fc16a11c4ac393605f453754', size=39193383, url='https://piston-data.mojang.com/v1/objects/2dc72797acbc1b63fc16a11c4ac393605f453754/client.jar'}
+[17:48:07.841 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:48:08.091 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:48:38.607 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:49:07.621 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:50:05.149 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:50:15.065 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:50:24.406 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:51:06.411 bStats-Metrics/INFO] Sent bStats metrics data: {"osName":"Linux","osArch":"amd64","osVersion":"6.8.0-1064-azure","coreCount":2,"service":{"id":5273,"customCharts":[{"chartId":"authMode","data":{"value":"offline"}},{"chartId":"version","data":{"value":"2.11.3-b1248 (git-master-751d2aa)"}},{"chartId":"defaultLocale","data":{"value":"en_US"}},{"chartId":"platform","data":{"values":{"Standalone":{"Standalone":1}}}},{"chartId":"bedrockHaProxyProtocol","data":{"value":"false"}},{"chartId":"javaHaProxyProtocol","data":{"value":"false"}},{"chartId":"javaVersion","data":{"values":{"Java 25":{"25.0.4.1":1}}}}]},"serverUUID":"4a2ac3f7-7ca8-4eb7-ae2c-ec0588b09837","metricsVersion":"3.1.0"}
+[17:51:06.590 bStats-Metrics/ERROR] Could not submit bStats metrics data
+java.io.IOException: Server returned HTTP response code: 429 for URL: https://bStats.org/api/v2/data/server-implementation
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1706) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1305) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at org.bstats.MetricsBase.sendData(MetricsBase.java:231) ~[Geyser.jar:?]
+	at org.bstats.MetricsBase.lambda$submitData$4(MetricsBase.java:196) [Geyser.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) [?:?]
+	at java.lang.Thread.run(Thread.java:1474) [?:?]
+[17:51:44.688 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:52:03.946 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:53:03.718 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:53:16.973 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:53:46.741 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:55:03.099 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:56:51.833 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:56:54.334 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:56:55.108 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:57:49.614 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:58:28.380 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[17:59:30.408 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:00:48.166 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:00:51.168 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:00:54.169 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:00:57.170 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:00.171 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:03.172 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:06.172 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:09.173 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:12.175 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:15.176 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:18.177 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:21.178 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:24.179 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:27.180 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:30.181 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:33.183 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:36.184 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:39.187 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:42.188 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:45.189 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:48.190 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:51.191 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:54.193 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:01:57.194 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:00.195 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:03.196 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:06.198 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:09.201 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:12.202 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:15.203 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:18.205 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:21.206 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:24.207 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:25.737 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:02:27.208 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:30.209 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:33.210 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:36.211 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:39.211 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:39.745 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:02:42.212 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:45.213 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:48.214 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:51.215 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:54.217 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:02:57.218 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:00.219 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:03.220 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:06.221 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:09.222 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:12.223 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:15.225 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:18.225 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:21.226 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:24.228 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:27.229 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:30.229 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:33.230 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:36.231 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:39.232 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:42.233 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:45.234 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:46.170 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:03:48.235 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:51.236 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:54.237 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:03:57.238 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:00.239 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:03.240 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:06.241 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:09.242 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:12.243 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:15.244 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:18.245 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:19.031 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:04:21.246 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:24.246 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:27.247 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:30.248 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:33.249 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:36.250 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:39.251 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:42.252 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:45.253 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:48.254 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:51.254 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:54.255 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:04:57.256 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:00.257 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:03.258 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:06.259 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:09.260 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:12.260 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:15.261 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:18.262 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:21.263 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:24.264 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:27.265 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:30.265 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:33.266 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:36.267 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:39.268 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:42.269 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:45.270 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:48.271 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:51.272 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:54.273 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:05:57.274 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:00.274 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:03.275 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:06.276 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:09.277 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:12.278 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:15.279 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:18.279 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:21.280 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:24.281 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:27.282 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:30.283 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:33.284 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:36.285 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:39.286 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:42.287 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:45.288 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:48.289 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:51.290 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:54.290 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:06:57.291 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:00.292 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:03.293 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:06.294 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:09.295 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:12.296 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:15.297 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:18.297 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:21.299 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:24.300 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:27.301 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:30.302 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:33.303 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:36.303 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:39.304 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:42.305 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:45.306 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:48.307 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:51.307 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:54.308 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:07:57.309 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:00.310 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:03.311 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:06.311 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:09.312 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:12.313 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:15.314 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:18.315 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:21.316 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:24.317 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:27.317 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:30.318 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:33.319 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:36.320 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:39.321 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:42.322 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:45.322 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:48.323 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:51.324 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:54.325 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:57.326 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:08:58.426 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:09:00.326 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:03.327 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:06.329 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:09.330 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:12.330 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:15.331 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:18.332 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:21.333 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:24.334 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:27.335 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:30.335 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:33.336 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:36.337 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:39.338 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:42.339 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:45.340 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:48.341 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:51.341 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:54.342 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:57.343 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:09:58.204 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:10:00.344 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:03.344 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:06.345 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:08.552 bStats-Metrics/INFO] Sent bStats metrics data: {"osName":"Linux","osArch":"amd64","osVersion":"6.8.0-1064-azure","coreCount":2,"service":{"id":5273,"customCharts":[{"chartId":"authMode","data":{"value":"offline"}},{"chartId":"version","data":{"value":"2.11.3-b1248 (git-master-751d2aa)"}},{"chartId":"defaultLocale","data":{"value":"en_US"}},{"chartId":"platform","data":{"values":{"Standalone":{"Standalone":1}}}},{"chartId":"bedrockHaProxyProtocol","data":{"value":"false"}},{"chartId":"javaHaProxyProtocol","data":{"value":"false"}},{"chartId":"javaVersion","data":{"values":{"Java 25":{"25.0.4.1":1}}}}]},"serverUUID":"4a2ac3f7-7ca8-4eb7-ae2c-ec0588b09837","metricsVersion":"3.1.0"}
+[18:10:08.715 bStats-Metrics/INFO] Sent data to bStats and received response: 
+[18:10:09.346 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:12.347 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:15.348 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:18.348 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:21.349 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:24.350 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:27.351 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:30.352 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:32.465 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:10:33.353 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:36.354 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:39.355 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:42.233 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:10:42.356 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:45.357 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:47.971 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:10:48.358 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:51.359 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:54.360 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:10:57.360 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:00.361 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:03.362 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:06.363 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:09.363 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:12.364 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:15.365 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:18.366 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:19.738 Thread-0/INFO] Scoreboard updater: took 2 ms. Updated 0 players
+[18:11:21.367 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:24.367 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:27.368 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:30.369 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:33.370 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:34.743 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:11:36.371 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:39.371 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:42.372 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:45.373 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:48.374 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:51.375 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:54.376 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:11:55.500 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:11:56.750 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:11:57.377 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:00.377 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:03.378 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:06.379 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:09.380 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:12.380 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:15.381 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:18.382 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:21.383 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:22.507 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:12:24.384 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:27.384 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:30.385 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:33.386 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:36.387 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:39.388 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:42.388 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:45.389 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:48.390 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:51.391 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:54.392 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:12:57.392 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:00.393 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:03.394 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:06.395 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:09.396 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:12.397 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:15.398 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:18.399 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:21.400 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:24.400 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:27.401 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:30.402 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:33.402 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:36.403 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:39.404 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:42.405 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:45.406 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:48.406 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:50.041 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:13:51.407 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:54.408 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:13:57.409 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:00.409 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:03.410 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:06.411 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:07.799 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:14:09.412 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:12.412 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:15.413 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:18.414 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:21.415 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:24.415 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:27.416 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:30.417 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:33.418 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:36.418 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:39.419 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:42.420 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:45.421 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:48.266 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:14:48.421 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:51.422 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:54.423 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:14:57.424 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:00.424 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:03.425 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:06.426 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:09.427 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:12.427 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:15.428 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:18.429 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:21.430 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:23.826 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:15:24.431 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:27.432 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:30.432 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:33.433 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:36.434 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:39.435 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:42.436 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:45.436 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:48.269 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:15:48.437 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:51.340 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:15:51.438 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:54.438 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:15:57.439 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:00.440 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:02.270 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:16:03.345 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:16:03.440 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:06.441 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:09.442 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:12.443 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:15.443 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:18.445 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:21.103 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:16:21.445 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:24.446 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:27.447 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:30.272 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:16:30.448 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:33.448 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:36.449 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:39.450 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:40.359 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:16:42.450 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:45.451 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:48.452 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:51.453 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:54.453 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:16:57.454 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:00.455 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:03.455 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:06.456 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:09.457 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:12.458 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:15.458 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:18.459 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:20.280 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:17:21.460 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:24.461 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:27.461 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:30.462 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:33.463 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:35.124 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:17:36.464 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:39.464 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:41.126 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:17:42.465 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:45.466 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:48.466 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:51.467 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:54.468 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:57.468 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:17:58.633 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:18:00.469 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:03.470 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:06.470 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:09.471 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:12.472 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:15.472 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:18.473 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:21.474 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:24.475 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:27.476 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:30.477 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:33.477 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:36.478 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:39.479 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:42.479 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:45.480 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:48.481 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:51.482 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:54.482 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:18:57.483 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:00.484 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:03.485 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:06.485 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:09.486 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:12.487 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:15.488 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:18.489 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:21.489 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:24.490 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:27.491 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:30.427 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:19:30.492 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:33.492 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:36.493 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:39.494 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:42.495 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:45.430 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:19:45.496 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:48.496 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:51.497 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:54.498 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:19:57.499 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:00.499 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:03.502 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:06.503 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:09.504 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:12.504 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:15.505 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:18.506 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:21.507 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:21.956 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:20:24.507 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:26.958 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:20:27.508 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:30.509 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:33.510 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:36.510 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:39.511 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:42.512 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:43.213 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:20:45.512 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:48.513 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:51.514 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:54.514 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:20:57.515 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:00.516 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:03.516 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:06.517 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:09.518 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:12.518 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:15.519 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:18.520 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:21.520 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:24.521 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:27.522 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:29.729 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:21:30.522 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:33.523 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:36.524 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:39.524 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:42.525 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:45.526 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:48.526 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:51.527 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:54.243 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:21:54.528 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:21:57.528 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:00.529 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:03.531 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:06.532 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:09.532 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:12.533 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:15.534 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:18.534 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:21.535 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:24.536 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:27.536 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:30.537 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:33.538 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:36.539 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:39.539 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:42.540 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:45.541 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:48.541 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:51.542 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:54.543 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:57.543 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:22:58.317 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:23:00.544 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:03.545 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:06.545 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:09.546 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:12.546 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:15.547 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:18.548 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:21.548 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:24.549 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:27.550 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:30.550 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:33.551 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:36.552 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:39.552 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:42.553 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:45.554 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:48.555 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:51.555 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:54.556 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:23:57.557 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:00.557 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:03.558 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:06.558 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:09.559 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:12.560 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:15.560 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:18.561 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:21.562 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:24.562 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:27.563 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:30.564 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:33.564 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:36.565 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:39.566 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:41.572 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:24:42.566 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:45.567 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:48.568 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:51.568 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:54.569 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:57.569 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:24:58.579 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:25:00.079 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:25:00.570 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:03.571 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:03.579 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:25:06.571 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:09.572 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:12.573 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:15.573 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:18.574 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:21.574 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:24.575 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:27.576 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:30.576 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:33.577 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:36.578 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:39.578 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:42.579 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:45.580 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:48.580 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:51.581 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:54.582 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:25:57.583 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:00.583 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:03.584 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:06.585 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:08.357 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:26:09.586 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:12.586 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:15.587 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:18.588 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:20.861 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:26:21.588 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:24.589 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:27.590 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:30.590 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:33.592 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:36.593 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:36.868 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:26:37.868 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:26:39.593 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:42.594 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:45.595 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:48.595 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:51.596 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:54.597 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:26:57.598 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:00.598 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:03.599 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:06.600 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:09.601 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:12.601 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:15.602 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:18.602 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:21.603 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:24.604 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:27.604 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:30.141 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:27:30.605 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:33.605 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:36.606 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:39.607 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:42.607 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:45.608 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:48.609 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:51.609 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:54.610 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:27:57.611 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:00.611 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:03.612 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:06.613 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:09.613 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:12.614 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:15.615 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:18.615 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:21.616 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:24.617 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:27.618 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:30.618 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:33.619 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:36.620 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:37.418 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:28:39.620 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:42.621 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:45.171 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:28:45.621 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:48.622 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:51.623 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:54.623 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:28:56.176 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:28:57.624 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:00.625 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:03.625 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:06.626 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:09.626 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:12.627 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:15.628 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:17.687 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:29:18.628 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:21.629 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:24.630 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:27.630 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:30.631 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:32.693 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:29:33.631 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:36.632 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:39.633 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:40.947 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:29:42.633 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:45.634 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:48.635 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:51.635 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:53.703 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:29:54.636 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:29:57.636 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:00.637 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:03.638 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:06.638 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:09.639 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:11.959 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:30:12.639 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:15.640 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:17.713 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:30:18.640 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:21.641 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:24.642 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:27.642 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:30.643 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:33.644 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:36.644 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:39.645 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:42.646 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:45.646 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:48.647 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:51.648 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:54.648 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:30:57.649 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:00.649 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:03.650 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:06.651 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:08.736 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:31:09.651 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:09.986 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:31:12.652 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:15.653 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:18.653 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:21.654 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:24.655 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:27.655 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:30.656 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:33.656 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:36.657 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:39.658 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:42.658 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:45.659 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:48.659 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:51.660 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:54.661 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:31:57.376 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:31:57.661 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:00.662 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:03.663 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:06.663 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:09.664 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:12.665 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:15.665 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:18.666 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:21.667 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:24.667 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:27.669 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:30.669 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:33.670 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:36.671 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:39.671 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:42.672 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:45.673 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:48.673 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:51.674 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:54.675 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:32:57.676 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:00.678 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:03.678 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:06.679 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:09.680 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:12.680 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:15.682 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:18.682 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:21.683 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:24.684 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:27.684 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:30.686 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:33.686 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:36.687 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:39.688 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:42.689 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:45.693 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:48.695 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:51.298 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:33:51.696 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:54.697 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:33:57.698 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:00.698 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:03.699 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:06.701 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:09.702 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:12.703 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:15.703 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:18.704 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:21.705 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:23.315 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:34:24.705 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:27.706 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:30.707 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:33.707 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:36.708 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:39.708 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:42.709 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:45.710 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:48.711 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:51.712 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:54.712 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:34:57.713 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:00.714 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:03.714 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:06.715 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:09.715 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:11.574 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:35:12.716 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:15.717 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:18.718 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:21.719 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:24.720 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:27.720 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:30.721 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:33.722 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:36.722 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:39.723 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:42.723 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:45.724 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:48.725 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:51.726 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:54.726 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:35:57.727 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:00.728 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:03.728 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:06.729 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:09.729 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:12.730 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:15.731 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:18.731 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:20.836 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:36:21.732 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:24.732 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:27.733 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:30.734 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:33.734 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:36.735 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:39.735 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:42.736 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:45.737 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:48.737 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:51.738 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:54.739 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:36:57.739 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:00.740 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:03.741 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:06.741 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:09.742 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:12.743 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:15.743 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:18.113 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:37:18.744 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:21.744 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:23.865 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:37:24.745 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:27.746 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:30.746 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:33.747 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:36.748 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:39.748 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:41.121 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:37:42.749 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:45.749 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:48.750 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:51.751 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:54.751 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:37:57.628 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:37:57.752 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:00.753 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:03.753 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:06.754 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:09.754 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:10.636 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:38:12.755 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:15.756 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:18.756 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:21.757 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:24.758 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:27.759 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:30.759 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:33.760 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:36.761 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:39.761 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:42.762 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:45.763 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:48.763 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:51.764 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:54.765 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:38:56.659 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:38:57.766 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:00.766 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:03.767 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:06.439 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:39:06.767 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:09.768 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:12.769 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:14.664 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:39:15.769 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:18.770 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:21.771 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:24.771 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:26.418 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:39:27.418 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:39:27.772 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:30.772 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:33.773 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:36.774 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:39.774 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:42.775 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:45.776 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:48.777 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:49.677 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:39:51.777 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:54.778 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:39:57.778 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:00.779 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:03.780 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:06.780 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:08.552 bStats-Metrics/INFO] Sent bStats metrics data: {"osName":"Linux","osArch":"amd64","osVersion":"6.8.0-1064-azure","coreCount":2,"service":{"id":5273,"customCharts":[{"chartId":"authMode","data":{"value":"offline"}},{"chartId":"version","data":{"value":"2.11.3-b1248 (git-master-751d2aa)"}},{"chartId":"defaultLocale","data":{"value":"en_US"}},{"chartId":"platform","data":{"values":{"Standalone":{"Standalone":1}}}},{"chartId":"bedrockHaProxyProtocol","data":{"value":"false"}},{"chartId":"javaHaProxyProtocol","data":{"value":"false"}},{"chartId":"javaVersion","data":{"values":{"Java 25":{"25.0.4.1":1}}}}]},"serverUUID":"4a2ac3f7-7ca8-4eb7-ae2c-ec0588b09837","metricsVersion":"3.1.0"}
+[18:40:08.706 bStats-Metrics/INFO] Sent data to bStats and received response: 
+[18:40:09.781 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:12.781 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:15.782 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:18.783 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:21.784 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:24.797 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:27.702 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:40:27.798 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:30.799 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:33.800 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:36.801 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:39.801 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:42.802 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:45.803 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:48.803 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:51.804 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:54.805 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:40:57.805 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:00.806 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:02.466 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:41:03.806 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:05.967 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:41:06.807 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:09.808 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:10.719 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:41:12.808 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:14.720 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:41:15.809 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:18.809 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:21.810 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:24.811 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:27.811 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:30.812 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:33.813 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:36.813 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:39.814 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:42.814 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:45.815 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:47.489 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:41:48.816 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:51.816 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:54.817 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:41:57.817 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:00.818 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:03.819 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:06.819 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:09.749 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:42:09.820 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:12.821 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:14.751 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:42:15.821 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:18.822 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:21.822 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:24.823 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:27.509 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:42:27.824 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:30.825 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:33.825 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:36.826 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:39.827 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:42.014 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:42:42.827 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:45.828 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:48.829 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:51.829 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:54.830 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:42:57.830 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:00.831 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:03.832 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:04.022 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:43:05.459 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:43:06.832 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:09.833 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:12.833 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:15.834 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:18.835 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:21.835 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:24.836 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:27.837 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:30.837 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:33.838 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:36.838 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:39.839 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:42.840 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:45.840 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:48.841 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:51.841 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:54.842 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:43:57.045 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:43:57.843 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:00.843 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:03.844 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:06.845 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:09.845 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:12.846 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:15.846 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:18.847 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:21.848 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:24.848 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:27.849 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:30.850 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:33.850 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:36.851 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:37.468 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:44:39.851 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:42.852 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:45.853 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:48.853 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:51.854 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:54.854 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:44:57.855 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:00.856 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:03.857 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:06.857 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:09.858 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:12.859 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:15.860 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:18.860 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:21.861 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:24.861 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:27.862 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:30.863 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:33.864 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:36.864 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:39.865 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:42.865 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:45.866 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:48.867 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:49.093 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:45:51.867 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:54.868 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:45:57.869 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:00.869 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:03.870 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:06.871 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:09.871 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:12.872 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:15.872 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:18.873 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:21.874 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:24.874 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:27.875 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:30.876 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:33.877 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:36.877 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:39.878 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:42.878 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:45.879 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:48.880 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:51.880 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:54.881 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:46:57.882 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:00.882 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:03.883 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:06.884 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:09.884 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:12.885 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:15.886 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:17.489 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:47:18.886 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:21.887 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:22.630 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:47:24.887 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:26.381 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:47:27.888 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:30.889 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:33.889 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:36.890 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:39.891 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:42.892 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:45.492 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:47:45.893 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:48.893 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:51.894 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:54.894 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:47:57.895 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:00.896 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:03.896 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:06.897 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:09.898 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:12.155 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:48:12.898 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:15.899 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:18.900 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:19.908 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:48:21.900 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:24.901 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:27.902 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:30.902 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:33.903 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:36.904 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:39.904 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:42.905 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:45.905 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:48.906 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:51.907 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:54.907 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:48:57.908 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:00.908 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:03.909 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:06.910 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:09.910 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:12.911 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:15.911 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:18.912 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:21.913 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:24.443 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:49:24.913 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:27.914 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:30.915 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:33.915 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:36.916 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:39.916 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:42.917 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:45.918 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:48.918 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:51.919 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:54.919 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:49:57.920 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:00.921 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:03.921 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:06.922 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:09.923 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:12.923 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:15.924 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:18.924 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:20.722 Thread-0/INFO] Scoreboard updater: took 1 ms. Updated 0 players
+[18:50:21.925 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:24.926 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:27.926 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:30.927 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:33.927 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:36.928 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:39.929 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:42.930 Geyser LegacyPingPassthrough Thread/DEBUG] Connection timeout for ping passthrough.
+[18:50:44.747 main/INFO] Shutting down Geyser.
+[18:50:44.884 main/INFO] Geyser shutdown successfully.

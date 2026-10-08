@@ -1,0 +1,6 @@
+--2026-10-05 03:14:13--  https://builds.playit.gg/0.15.26/playit-linux-amd64
+Resolving builds.playit.gg (builds.playit.gg)... 104.20.22.239, 172.66.168.209, 2606:4700:10::ac42:a8d1, ...
+Connecting to builds.playit.gg (builds.playit.gg)|104.20.22.239|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-10-05 03:14:13 ERROR 404: Not Found.
+

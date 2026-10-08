@@ -1,0 +1,120 @@
+[17:18:14] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
+[17:18:14] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-129-ver/26.2@9240f58 (2026-09-23T18:49:01Z) for Minecraft 26.2
+[17:18:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:18:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[17:18:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+ - Geyser-Spigot (2.11.3-SNAPSHOT), ViaBackwards (5.12.1-SNAPSHOT), ViaVersion (5.12.1-SNAPSHOT), floodgate (2.2.5-SNAPSHOT (b141-81b65cc))
+[17:18:20] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:18:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[17:18:22] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,894.7ms
+[17:18:26] [ServerMain/INFO]: Loaded 1585 recipes
+[17:18:26] [ServerMain/INFO]: Loaded 1688 advancements
+[17:18:26] [Server thread/INFO]: Starting minecraft server version 26.2
+[17:18:26] [Server thread/INFO]: Loading properties
+[17:18:26] [Server thread/INFO]: This server is running Paper version 26.2-129-ver/26.2@9240f58 (2026-09-23T18:49:01Z) (Implementing API version 26.2.build.129-stable)
+[17:18:26] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:18:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:18:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:18:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:18:28] [Server thread/INFO]: Default game type: SURVIVAL
+[17:18:28] [Server thread/INFO]: Generating keypair
+[17:18:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:18:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:18:28] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[17:18:29] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.1-SNAPSHOT
+[17:18:29] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[17:18:30] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:18:30] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:18:31] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b141-81b65cc)
+[17:18:31] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[17:18:32] [Server thread/INFO]: [floodgate] Took 919ms to boot Floodgate
+[17:18:32] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.1-SNAPSHOT
+[17:18:32] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.11.3-SNAPSHOT
+[17:18:32] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:18:32] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:18:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:18:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:18:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:18:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:18:32] [Server thread/INFO]: Preparing level "world"
+[17:18:33] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[17:18:33] [Server thread/INFO]: Preparing spawn area: 100%
+[17:18:33] [Server thread/INFO]: Prepared spawn area in 6 ms
+[17:18:33] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[17:18:33] [Server thread/INFO]: Prepared spawn area in 3 ms
+[17:18:33] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[17:18:33] [Server thread/INFO]: Prepared spawn area in 1 ms
+[17:18:33] [Server thread/INFO]: Done preparing level "world" (0.855s)
+[17:18:33] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.1-SNAPSHOT
+[17:18:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[17:18:33] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b141-81b65cc)
+[17:18:34] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.1-SNAPSHOT
+[17:18:34] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.11.3-SNAPSHOT
+[17:18:37] [Server thread/INFO]: [spark] Starting background profiler...
+[17:18:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:18:37] [Server thread/INFO]: [Geyser-Spigot] 
+[17:18:37] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.11.3-b1248 (git-master-751d2aa)
+[17:18:37] [Server thread/INFO]: [Geyser-Spigot] 
+[17:18:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:18:39] [Server thread/INFO]: [Geyser-Spigot] Registered 199 custom block overrides.
+[17:18:39] [Server thread/INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.
+[17:18:39] [Server thread/INFO]: [Geyser-Spigot] Registered 7 custom blocks.
+[17:18:43] [Server thread/INFO]: [Geyser-Spigot] Registered 1 custom items
+[17:18:44] [Server thread/WARN]: [Geyser-Spigot] Geyser is configured to expect HAProxy protocol for incoming Bedrock connections.
+[17:18:44] [Server thread/WARN]: [Geyser-Spigot] If you do not know what this is, open the Geyser config, and set "use-haproxy-protocol" under the  "advanced/bedrock" section to "false".
+[17:18:44] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[17:18:44] [Server thread/INFO]: [Geyser-Spigot] Done (6.968s)! Run /geyser help for help!
+[17:18:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:18:45] [spark-monitoring-1-thread-1/WARN]: [spark] Timed out waiting for world statistics
+[17:18:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:18:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:18:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:18:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:18:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:18:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:18:45] [Server thread/INFO]: Running delayed init tasks
+[17:18:45] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:18:45] [Server thread/INFO]: Done (32.581s)! For help, type "help"
+[17:18:45] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.1, you're on: 5.12.1-SNAPSHOT
+[17:18:45] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 3 builds behind ***
+[17:18:45] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[18:00:45] [Server thread/INFO]: Stopping server
+[18:00:45] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.11.3-SNAPSHOT
+[18:00:45] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[18:00:45] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[18:00:45] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.12.1-SNAPSHOT
+[18:00:45] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b141-81b65cc)
+[18:00:45] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.12.1-SNAPSHOT
+[18:00:45] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[18:00:45] [Server thread/INFO]: Saving players
+[18:00:45] [Server thread/INFO]: Saving worlds
+[18:00:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.00s
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[18:00:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:00:45] [WebSocketConnectReadThread-80/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[18:00:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[18:00:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[18:00:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:00:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:00:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:00:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:00:45] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[18:00:45] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[18:00:45] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:00:45] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

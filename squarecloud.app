@@ -1,0 +1,4 @@
+MAIN=Dockerfile
+MEMORY=1500
+VERSION=recommended
+DISPLAY_NAME=DesempregadosCraft
